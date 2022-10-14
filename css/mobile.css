@@ -1,0 +1,40 @@
+#what .items {
+    display: block;
+    padding: 1rem;
+}
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+/* Smartphone */
+#navbar {
+    flex-direction: column;
+    align-items: center;
+}
+#navbar .logo {
+    margin-bottom: 0.5rem;
+    align-content: center;
+}
+#navbar ul {
+   padding: 0.5rem;
+}
+#who {
+    display: block;
+}
+.who-img {
+    display: none;
+}
+#client .items {
+    width: 80%;
+}
+#client .items div:last-child{
+ display: none;
+}
+#contact {
+    flex-direction: column;
+}
